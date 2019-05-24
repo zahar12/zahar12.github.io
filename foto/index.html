@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Фотогалерея</title>
+	<link rel="stylesheet" href="css/style.css">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <script type="text/javascript" src="slick/slick.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  </head>
+ <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<body>
+	<header>
+		<img src="img/img1.jpeg">
+		<img src="img/img3.jpeg">
+		<img src="img/img8.jpeg">
+		<img src="img/img9.jpeg">
+		<img src="img/img11.jpg">
+	</header>
+	<main>
+		<h1 class="header">Фотогалерея</h1>
+		
+		<a data-fancybox="gallery" href="img/img1.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img1.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img2.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img2.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img3.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img3.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img4.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img4.jpeg')"></div></a>
+		<a data-fancybox="gallery"  href="img/img5.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img5.jpeg')"></div></a>
+		<a  data-fancybox="gallery" href="img/img6.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img6.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img7.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img7.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img8.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img8.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img9.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img9.jpeg')"></div></a>
+		<a data-fancybox="gallery"  href="img/img10.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img10.jpeg')"></div></a>
+		<a data-fancybox="gallery" href="img/img11.jpg" class="img-link"><div class="photo" style="background-image: url('img/img11.jpg')"></div></a>
+		<a data-fancybox="gallery" href="img/img12.jpeg" class="img-link"><div class="photo" style="background-image: url('img/img12.jpeg')"></div></a>
+	</main>
+	<footer>
+		<script type="text/javascript">$('header').slick({
+			dots:true,
+			autoplay:true,
+			autoplayspeed:3000,
+
+		});</script>
+		
+		<center><a href="https://vk.com/">zahar</a></center>
+</body>
+</html>
